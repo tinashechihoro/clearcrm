@@ -16,14 +16,14 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from marketing.views import HomePage
-
+from subscribers.views import subscriber_new
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     # Marketing pages
     url(r'^$', HomePage.as_view(), name="home"),
 
     # Subscriber related URLs
-    url(r'^signup/$', 'subscribers.views.subscriber_new', name='sub_new'),
+    #url(r'^signup/$', 'subscriber_new', name='sub_new'),
 
     # Admin URL
 

@@ -18,8 +18,8 @@ def subscriber_new(request,template='subscribers/subscriber_new.html'):
             user.save()
             return  HttpResponseRedirect('/success/')
 
-    else:
-        form = SubscribeForm()
+        else:
+            form = SubscribeForm()
 
     return render(request,template,{'form':form})
 
