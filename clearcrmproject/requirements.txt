@@ -39,7 +39,7 @@ idna==2.6
 image==1.5.16
 impacket==0.9.15
 incremental==17.5.0
-Jinja2==2.9.6
+Jinja2==2.11.3
 kombu==3.0.37
 lxml==4.1.0
 Markdown==2.6.8
